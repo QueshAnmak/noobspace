@@ -11,6 +11,11 @@ body {
   margin: 0;
 }
 
+.menu-button {
+	margin-top: 7px;
+  margin-left: 7px;
+}
+
 .search-all {
   display: flex;
   align-items: center;
@@ -19,16 +24,17 @@ body {
   height: 90vh;
 }
 
-.search-bar {
+.search-title {
+  color: gray;
+  font-size: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  margin-bottom: 20px;
 }
 
-.search-title {
-  color: gray;
-  font-size: 28;
+.search-bar {
   display: flex;
   align-items: center;
   justify-content: center;

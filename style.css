@@ -11,57 +11,18 @@ body {
   margin: 0;
 }
 
-.menu-button {
-	margin-top: 7px;
-  margin-left: 7px;
+input:focus{
+  outline: none;
 }
 
-.search-all {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 90vh;
-}
 
-.search-title {
-  color: gray;
-  font-size: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  margin-bottom: 20px;
-}
-
-.search-bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.search-bar .search-input {
-  background-color: #fff;
+.search {
+  background-color: #151819;
+  color: cyan;
   border: 0;
+  text-align: center;
   border-radius: 50px;
-  font-size: 18px;
-  padding: 15px;
-  height: 50px;
-  width: 400px;
-}
-
-.search-bar .search-button {
-  background-color: white;
-  margin: 5px;
-  color: #151819;
-  border: 0;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 24px;
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 50px;
-  width: 50px;
+  font-size: 10vh;
+  margin-top: 40vh;
+  width: 100vw;
 }

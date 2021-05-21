@@ -1,14 +1,12 @@
-let something = false;
-
 document.addEventListener("keydown", function(event){
     if (event.key != 'Backspace' && event.key != 'Delete'){
-    search.focus();
+        search.focus();
     }
-    if (search.value.trim().length == 1 && something && event.key == 'Backspace'){
+    if (search.value.length == 1 && event.key == 'Backspace'){
         console.log("blurring");
         search.blur();
         search.value = '';
-        something = false;
+        lengthMoreThan1 = false;
     }
 });
 
@@ -16,10 +14,6 @@ function checkIfEnter(event){
 
     console.log(event.key);
     const toSearch = search.value;
-
-    if (toSearch.trim().length > 0){
-        something = true;
-    }
 
     if (event.key === "Enter"){
 
